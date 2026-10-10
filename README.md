@@ -56,15 +56,3 @@ Un utente creato dallo script (`c.marini`, Vendite), dopo il login, trova da sol
 Le GPO sono collegate alle OU giuste e ogni reparto riceve solo le proprie:
 
 ![Struttura delle OU e GPO collegate](03-ou-utenti-gruppi/images/03-01-struttura-ou-e-gpo.png)
-
-## Prossimi passi
-
-- [x] Script PowerShell: creazione utenti da CSV ([06-powershell-ssh/scripts](06-powershell-ssh/scripts/))
-- [x] Script PowerShell: offboarding con spostamento in OU dedicata
-- [ ] Script PowerShell: report degli account inattivi, inventario dei client
-- [ ] GPO: redirect delle cartelle, orari di accesso, AppLocker, delega del controllo all'helpdesk
-- [ ] Quote con FSRM
-- [ ] Modulo VMware ESXi (anche nested)
-- [ ] Parte SOC: Sysmon + Wazuh, attacchi simulati, detection, incident report
-
-Nota: nel repository non ci sono password o credenziali.
